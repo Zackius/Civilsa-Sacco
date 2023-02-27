@@ -16,7 +16,7 @@ const Navbar = () => {
          <p class="pl-2 font-light text-sm md:text-lg" >MON -FRI  0800 - 1600 HRS  SAT 0800-12:30 HRS</p>
       </div>
       {/* phone number */}
-      <div class="flex  justify-center">
+      <div class="flex  justify-center pl-6">
         <CallIcon  color='primary'/>
 <p class="pl-2 font-light text-sm md:text-lg" >0715 679 789</p>        
       </div>
