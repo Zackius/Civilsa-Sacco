@@ -13,7 +13,7 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This project is a web application for Civilsa Sacco that shows details about the services it offers, their location, their opening hours, and contcts</p>
+ <p>This project is a web application for Civilsa Sacco that shows details about the services their offer, location, opening hours, and contacts</p>
 [Go Back to the top](#civilsa-sacco)
 ## Features
 As a user of the application,you will be able to :
