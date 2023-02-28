@@ -2,13 +2,14 @@ import React from 'react'
 import { logo } from "../img"
 import DownloadDoneIcon from '@mui/icons-material/DownloadDone';
 
+
 const Header = () => {
   return (
-      <section class=" flex justify-around  w-full bg-gray-200 h-[100px]">
-          <div>
-          <img class="w-42 h-20 m-3" src={logo} alt="civilsa" /> 
+    <section class=" flex  justify-center md:justify-around  w-full bg-gray-200 h-[100px]">
+          <div class="items-center">
+          <img class="w-42 h-20 m-3 " src={logo} alt="civilsa" /> 
           </div>
-          <div class="flex  m-7 ">
+          <div class="  md:visible invisible flex md:m-7 ">
               <div  class="flex">
                   <div>
                   <DownloadDoneIcon />
@@ -36,9 +37,8 @@ const Header = () => {
                       <p class="text-center"> Jan 4 2020</p>
                   </div>
               </div>
-        </div>
-          
-    </section>
+          </div>
+      </section>
   )
 }
 
