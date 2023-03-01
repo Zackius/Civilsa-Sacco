@@ -45,10 +45,10 @@ const Hero = () => {
         src={school}        class="block w-full h-[400px]  md:h-[700px]"
         alt="..." />
       <div
-        class="absolute inset-x-[15%] bottom-80 py-5  text-white md:block">
-        <h5 class="text-8xl font-bold  font-serif">Third slide label</h5>
-        <p class="text-4xl font-semibold font-mono">
-          Some representative placeholder content for the third slide.
+        class="absolute inset-x-[15%] bottom-80 py-5   text-blue-400  md:block">
+        <h5 class="text-8xl font-bold  font-serif">Soma Loan</h5>
+              <p class="text-4xl font-semibold font-mono">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ""
         </p>
       </div>
     </div>
@@ -61,8 +61,8 @@ const Hero = () => {
         class="block w-full h-[400px]  md:h-[700px]"
         alt="..." />
       <div
-        class="absolute inset-x-[15%] bottom-80 py-5  text-white md:block">
-        <h5 class="text-8xl font-bold font-serif">Third slide label</h5>
+        class="absolute inset-x-[15%] bottom-46 py-5   text-blue-400 md:block">
+        <h5 class="text-4xl font-bold font-serif">Business Loan</h5>
         <p class="text-4xl font-semibold font-mono">
           Some representative placeholder content for the third slide.
         </p>
@@ -77,8 +77,8 @@ const Hero = () => {
         class="block w-full h-[400px]  md:h-[700px]"
         alt="..." />
       <div
-        class="absolute inset-x-[15%] bottom-80 py-5  text-white md:block">
-        <h5 class="text-8xl font-bold font-serif">Third slide label</h5>
+        class="absolute inset-x-[15%] bottom-80 py-5  text-blue-400 md:block">
+        <h5 class="text-8xl font-bold font-serif">Farming Loans</h5>
         <p class="text-4xl font-semibold font-mono">
           Some representative placeholder content for the third slide.
         </p>
