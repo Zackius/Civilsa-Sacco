@@ -2,9 +2,9 @@
 import React from 'react'
 import {school, busines, farm } from "../img"
 
-const Hero = () => (
+const Hero = () => {
   return (
-    <section className='px-2'>
+    <section className='px-4'>
 <div
   id="carouselExampleCaptions"
   class="relative"
@@ -45,7 +45,7 @@ const Hero = () => (
         src={school}        class="block w-full h-[400px]  md:h-[700px]"
         alt="..." />
       <div
-        class="absolute inset-x-[15%] bottom-16 md:bottom-80 py-5   text-blue-900  md:block">
+        class="absolute inset-x-[15%] bottom-16 md:bottom-80 py-5 bg-white   text-blue-900  md:block">
         <h5 class="text-4xl md:text-6xl font-bold  font-serif">Soma Loan</h5>
               <p class="text-lg md:text-4xl font-semibold font-mono">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit,""
