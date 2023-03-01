@@ -5,7 +5,7 @@ import {school, busines, farm } from "../img"
 const Hero = () => {
   return (
     <section>
-    <div
+<div
   id="carouselExampleCaptions"
   class="relative"
   data-te-carousel-init
@@ -37,50 +37,49 @@ const Hero = () => {
   <div
     class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
     <div
-      class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      class="relative float-left -mr-[100%] w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-active
       data-te-carousel-item
-      style="backface-visibility: hidden">
+      style={{}}>
       <img
-        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
-        class="block w-full"
+        src={school}        class="block w-full h-[400px]  md:h-[700px]"
         alt="..." />
       <div
-        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <h5 class="text-xl">First slide label</h5>
-        <p>
-          Some representative placeholder content for the first slide.
+        class="absolute inset-x-[15%] bottom-80 py-5  text-white md:block">
+        <h5 class="text-8xl font-bold  font-serif">Third slide label</h5>
+        <p class="text-4xl font-semibold font-mono">
+          Some representative placeholder content for the third slide.
         </p>
       </div>
     </div>
     <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item
-      style="backface-visibility: hidden">
+      style={{}}>
       <img
-        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
-        class="block w-full"
+        src={busines}
+        class="block w-full h-[400px]  md:h-[700px]"
         alt="..." />
       <div
-        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <h5 class="text-xl">Second slide label</h5>
-        <p>
-          Some representative placeholder content for the second slide.
+        class="absolute inset-x-[15%] bottom-80 py-5  text-white md:block">
+        <h5 class="text-8xl font-bold font-serif">Third slide label</h5>
+        <p class="text-4xl font-semibold font-mono">
+          Some representative placeholder content for the third slide.
         </p>
       </div>
     </div>
     <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item
-      style="backface-visibility: hidden">
+      style={{}}>
       <img
-        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
-        class="block w-full"
+        src={farm}
+        class="block w-full h-[400px]  md:h-[700px]"
         alt="..." />
       <div
-        class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <h5 class="text-xl">Third slide label</h5>
-        <p>
+        class="absolute inset-x-[15%] bottom-80 py-5  text-white md:block">
+        <h5 class="text-8xl font-bold font-serif">Third slide label</h5>
+        <p class="text-4xl font-semibold font-mono">
           Some representative placeholder content for the third slide.
         </p>
       </div>
