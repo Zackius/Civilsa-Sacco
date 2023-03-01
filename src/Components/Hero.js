@@ -4,7 +4,7 @@ import {school, busines, farm } from "../img"
 
 const Hero = () => {
   return (
-    <section>
+    <section className='px-2'>
 <div
   id="carouselExampleCaptions"
   class="relative"
