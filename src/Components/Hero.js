@@ -2,7 +2,7 @@
 import React from 'react'
 import {school, busines, farm } from "../img"
 
-const Hero = () => {
+const Hero = () => (
   return (
     <section className='px-2'>
 <div

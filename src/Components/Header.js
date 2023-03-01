@@ -5,7 +5,7 @@ import DownloadDoneIcon from '@mui/icons-material/DownloadDone';
 
 const Header = () => {
   return (
-    <section class=" flex  justify-center md:justify-around  w-full bg-gray-200 h-[100px]">
+    <section class=" hidden md:flex  justify-center md:justify-around  w-full bg-gray-200 h-[100px]">
           <div class="items-center">
           <img class="w-42 h-20 m-3 " src={logo} alt="civilsa" /> 
           </div>

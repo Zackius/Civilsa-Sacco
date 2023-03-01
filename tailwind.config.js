@@ -5,6 +5,11 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
+    extend: {
+      backgroundImage:  {
+      "about-image" :"url('/img/biz.jpeg')"
+      }
+    },
     container: {
       center: true,
     },
