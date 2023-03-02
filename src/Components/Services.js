@@ -3,7 +3,7 @@ import { busines, farm, school } from '../img'
 
 const Services = () => {
   return (
-    <section className='container md:mx-auto  pt-4'>
+    <section name="services" className='container md:mx-auto  pt-4'>
       <div>
         <h1 className='text-center font-bold text-3xl md:text-4xl underline pb-4'>Our Services</h1>
       </div>

@@ -9,7 +9,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Navbar = () => {
   return (
-    <section class="  flex  flex-col justify-evenly  md:flex-row p-4
+    <section class="flex  flex-col justify-evenly  md:flex-row p-4
        w-full h-auto bg-white bottom-1 shadow-sm">
       <div class="flex flex-col md:flex-row justify-center pb-2 ">
       <div>
