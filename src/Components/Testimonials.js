@@ -3,18 +3,18 @@ import { james } from '../img'
 
 const Testimonials = () => {
   return (
-    <section className='md:h-[300px]  max-w-full grid grid-cols-1 place-items-center bg-slate-400  '>
-        <div className="flex  place-items-center">
-          <div className=" items-center">
-            <img className="max-h-[400px] md:max-w-[300px] rounded-full" src={james} alt="" />
+    <section className='md:h-[300px] bg-gray-300  pt-12  grid grid-cols-1 place-items-center container '>
+        <div className="flex m-2 gap-8   justify-between place-items-center shadow-xl ">
+          <div className="flex-1 justify-center m-2 ">
+            <img className="max-w-auto md:max-w-[300px] rounded-full" src={james} alt="" />
           </div>
-          <div className="  items-center w-[600px]">
-            <h1 className="text-[26px] font-bold mb-2 max-w-[45 0px] mx-auto">
+          <div className=" flex-1 text-white m-2 ">
+            <h1 className=" font-bold ">
        James Peterson Mwangi 
             </h1>
-            <p  className='text-lg text-semibold mb-2'>Business Man </p>
+            <p  className='mb-2'>Business Man </p>
             <p className="text-sm">
-            ""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat .  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur "
+            ""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ."
             </p>
         </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className=' h-[400px] bg-about bg-cover object-cover  bg-accent-dark bg-no-repeat container mx-auto  '>
+    <section className=' h-[400px] bg-about bg-cover object-cover pb-12 bg-accent-dark bg-no-repeat container mx-auto  '>
       <h1 className="text-[26px] font-bold mb-2 max-w-[45 0px] mx-auto text-center underline p-12 text-white">
             About 
             </h1>
