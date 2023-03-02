@@ -4,6 +4,7 @@ import MiniNav from "./Components/MiniNav"
 import Hero from "./Components/Hero";
 import Services from "./Components/Services";
 import About from "./Components/About";
+import Testimonials from "./Components/Testimonials";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <MiniNav />
       <Hero />
       <Services />
-      <About/>
+      <About />
+      <Testimonials/>
     </div>
   );
 }
