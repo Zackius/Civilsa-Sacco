@@ -1,6 +1,6 @@
-import Header from "./Components/Header";
-import Navbar from "./Components/Navbar";
-import MiniNav from "./Components/MiniNav"
+import Header from "./Components/Header /Header";
+import Navbar from "./Components/Header /Navbar";
+import MiniNav from "./Components/Header /MiniNav"
 import Hero from "./Components/Hero";
 import Services from "./Components/Services";
 import About from "./Components/About";

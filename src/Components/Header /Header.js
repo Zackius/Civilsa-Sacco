@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo } from "../img"
+import { logo } from "../../img"
 import DownloadDoneIcon from '@mui/icons-material/DownloadDone';
 
 
