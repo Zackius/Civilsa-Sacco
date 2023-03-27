@@ -7,7 +7,7 @@ import CopyrightIcon from '@mui/icons-material/Copyright';
 
 const Footer = () => {
   return (
-    <section className=' container pt-4'>
+    <section className='container'>
       <div className=" grid md:grid-cols-1 h-auto bg-blue-400 ">
         <div className="flex flex-col  md:flex-row  pt-4 justify-evenly items-center">
         <div className="flex flex-1 justify-center items-center">

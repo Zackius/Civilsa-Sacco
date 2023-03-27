@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <section class=" hidden md:flex  justify-center md:justify-around  w-full bg-gray-200 h-[100px]">
           <div class="items-center">
-          <img class="w-42 h-20 m-3 " src={logo} alt="civilsa" /> 
+          <img class="w-36 h-16 m-3 " src={logo} alt="civilsa" /> 
           </div>
           <div class="  md:visible invisible flex md:m-7 ">
               <div  class="flex">

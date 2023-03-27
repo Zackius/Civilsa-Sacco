@@ -9,8 +9,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Navbar = () => {
   return (
-    <section class=" fixed bg-blue-400 flex  flex-col justify-evenly  md:flex-row p-4
-       w-full h-auto bottom-1 shadow-sm">
+    <section class="bg-blue-400 border-b-2  flex  flex-col justify-evenly  md:flex-row p-4
+       w-full h-auto bottom-1">
       <div class="flex flex-col md:flex-row justify-center pb-2 ">
       <div>
          <p class="pl-2 font-light text-sm md:text-lg" >MON -FRI  0800 - 1600 HRS  SAT 0800-12:30 HRS</p>
